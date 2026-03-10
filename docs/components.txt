@@ -1,0 +1,39 @@
+LINE FOLLOWING ROBOT – COMPONENT LIST
+
+1. Arduino Nano
+   Microcontroller used for robot control
+
+2. QTR-8RC Line Sensor
+   8-channel reflectance sensor array for line detection
+
+3. TB6612FNG Motor Driver
+   Dual H-Bridge motor driver for controlling two DC motors
+
+4. N20 DC Gear Motors
+   6V / 300 RPM motors used for robot mobility
+
+5. Wheels (N20 compatible)
+   Mounted on motors for drive
+
+6. Li-Po Battery
+   7.4V 360mAh 30C (2S)
+
+7. LM2596 Buck Converter
+   Steps battery voltage down to regulated level
+
+8. Switch
+   Used for power control
+
+9. Jumper Wires
+   Electrical connections between modules
+
+10. LEDs
+   Status indicator and finish signal
+
+11. Resistors
+   Current limiting for LEDs
+
+12. Header Pins
+   Used for connections between modules
+
+Total Estimated Cost ≈ ₹4827

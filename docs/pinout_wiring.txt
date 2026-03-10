@@ -1,0 +1,45 @@
+LINE FOLLOWING ROBOT – PIN CONNECTIONS
+
+Arduino Nano → Motor Driver (TB6612FNG)
+
+D7  → AIN1
+D6  → AIN2
+D5  → PWMA
+
+D9  → BIN1
+D10 → BIN2
+D11 → PWMB
+
+D8  → STBY (Motor driver enable)
+
+--------------------------------
+
+Arduino Nano → Sensor Array
+
+A0 → Sensor 1
+A1 → Sensor 2
+A2 → Sensor 3
+A3 → Sensor 4
+A4 → Sensor 5
+A5 → Sensor 6
+A6 → Sensor 7
+A7 → Sensor 8
+
+D4 → IR Sensor Enable
+
+--------------------------------
+
+Arduino Nano → Finish LED
+
+D13 → LED Anode
+GND → LED Cathode (through resistor)
+
+--------------------------------
+
+Power Connections
+
+Battery → Buck Converter
+Buck Converter → Arduino 5V
+Battery → Motor Driver VM
+
+All grounds connected together.
