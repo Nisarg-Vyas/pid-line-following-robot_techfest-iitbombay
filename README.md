@@ -4,7 +4,7 @@ A high-speed PID-based Line Following Robot designed for the **Meshmerize compet
 
 The robot secured **3rd place in the Zonal round at IIT Gandhinagar** and directly qualified for the **final round**.
 
-The robot uses an **8-channel reflectance sensor array**, a **PID control algorithm**, and a **dual H-bridge motor driver** to achieve stable and fast line tracking.
+The robot uses an **8-channel reflectance sensor array**, a **PID control algorithm**, and a **dual H-bridge motor driver** to achieve stable and fast line tracking. (check [lfr_demo](videos/lfr_demo.mp4))
 
 ---
 
@@ -43,7 +43,7 @@ Main components used:
 
 The complete component list is available in:
 
-docs/components.txt
+[View COMPONENTS](docs/components.txt)
 
 ---
 
@@ -200,6 +200,6 @@ docs/pinout_wiring.txt
 ---
 
 # Author
-Nisarg Vyas
-B.Tech Computer Science and Engineering
+Nisarg Vyas  
+B.Tech Computer Science and Engineering  
 IIIT Vadodara (IIITV-ICD)
