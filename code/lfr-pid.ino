@@ -1,5 +1,3 @@
-/************* FINAL COMPETITION LFR (WHITE FINISH – FIXED DEAD-END CONFLICT) *************/
-
 // ================= MOTOR DRIVER =================
 #define AIN1 7
 #define AIN2 6
@@ -176,7 +174,6 @@ void loop() {
   }
 }
 
-// =================================================
 // ============ WHITE FINISH LOGIC =================
 
 bool isWhiteFinishBox() {
@@ -203,7 +200,6 @@ bool allSensorsWhite() {
   return true;
 }
 
-// =================================================
 // ================= PID FOLLOW ====================
 
 void followLinePID() {
@@ -239,7 +235,6 @@ void followLinePID() {
   analogWrite(PWMB, rightSpeed);
 }
 
-// =================================================
 // ================= MOTION ========================
 
 int turnSpeed() {
@@ -290,7 +285,6 @@ void uTurn() {
   analogWrite(PWMB, turnSpeed());
 }
 
-// =================================================
 // ================= SENSOR ========================
 
 void readSensors() {
@@ -301,7 +295,6 @@ void readSensors() {
   }
 }
 
-// =================================================
 // ============ JUNCTION DETECTION =================
 
 void detectJunctions(bool &leftA, bool &straightA, bool &rightA) {
@@ -317,7 +310,6 @@ void detectJunctions(bool &leftA, bool &straightA, bool &rightA) {
   straightA = (centerCount >= 2);
 }
 
-// =================================================
 // ============ LINE CONFIRMATION ==================
 
 bool lineFound() {
