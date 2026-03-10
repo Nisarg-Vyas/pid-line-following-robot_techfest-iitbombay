@@ -39,7 +39,9 @@ GND → LED Cathode (through resistor)
 Power Connections
 
 Battery → Buck Converter
-Buck Converter → Arduino 5V
+Buck Converter 1 → Arduino 5V + Motor Driver Vcc
+Buck Converter 2 → QTR (IR sensor)
 Battery → Motor Driver VM
+<*> NOTE: Power connecterion are different in "docs/pinout_wiring.txt"
 
 All grounds connected together.
